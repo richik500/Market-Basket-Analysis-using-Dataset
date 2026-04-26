@@ -1,3 +1,7 @@
+#Dipayan Saha   Roll:71   Sec:2
+# Objective: To analyze transaction data and discover:
+#Frequently purchased items; Products bought together; Cross-selling opportunities; Product placement strategies; Customer purchase behavior
+
 # Install necessary packages if not installed
 install.packages(c("arules", "arulesViz", "dplyr", "tidyr"))
 
@@ -6,7 +10,7 @@ library(arules)
 library(arulesViz)
 library(dplyr)
 library(tidyr)
-attach(BreadBasket_DMS)
+attach(Bread_Basket)
 # Load and check the dataset (assuming BreadBasket_DMS is already loaded)
 data <- as.data.frame(BreadBasket_DMS)  # Convert data to a dataframe
 summary(data)  # Get a summary of the data
