@@ -1,7 +1,7 @@
 # Market Basket Analysis Using R
 This repository contains a Market Basket Analysis project using R and transaction data from a bakery retail store. The project identifies customer buying patterns, frequently purchased products, and product combinations using Association Rule Mining.
 
-## Project Objective 
+## Project Objective
 To analyze transaction data and discover:
 - Frequently purchased items
 - Products bought together
